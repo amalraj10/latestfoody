@@ -1,0 +1,694 @@
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+   /* font-family: 'Finger Paint', cursive; */
+   /* font-family: 'Cinzel Decorative', cursive; */
+   /* font-family: 'Shojumaru', cursive; */
+   /* font-family: 'Major Mono Display', monospace; */
+   /* font-family: 'MuseoModerno', cursive; */
+   font-family: 'Macondo Swash Caps', cursive;
+
+
+
+
+   
+}
+.centered1{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:20px;
+    font-family: 'Julee', cursive;
+
+
+}
+#hd{
+    color: rgb(251, 193, 4);
+
+}
+#hi{
+    color: rgb(255, 255, 255);
+}
+#txt{
+    color: rgb(251, 193, 4);
+}
+
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    /* padding: 0; */
+    overflow: hidden;
+    padding-left: 940PX;
+    background-color:rgb(251, 193, 4);
+     /* background-image: linear-gradient(to bottom ,rgb(253, 253, 23),rgb(0, 0, 0)); */
+    float: right;
+    /* font-family: "Heebo",sans-serif; */
+    background-image: url(./image/bggggg.jpg)
+    /* background-color: white; */
+}
+
+
+  li {
+    float: left;
+  }
+  
+ .HAOLC a {
+    display: block;
+    /* color: rgb(251, 181, 4);; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+   
+    text-decoration: none;
+  
+    /* font-family: 'REM', sans-serif; */
+    font-family: 'Chivo', sans-serif;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    
+  }
+
+  .link:hover{
+    color:white ;
+  }
+
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+  }
+  
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+
+  }
+  
+  .image2 {
+    position: absolute;
+    top: 550px;
+    left: 150px;
+    animation: rotation 4s infinite linear;
+
+   
+  } 
+  .image2:hover{                  /*first image rotation */
+    /* color: white; */
+    animation: rotation 4s infinite linear;
+}                                    
+@keyframes rotation {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}
+/* .LOGIN{
+    margin-left: 550PX;
+    list-style-type: none;
+    
+    display: block;
+    /* color: rgb(251, 181, 4);; */
+
+    /* text-align: center;
+    padding: 16px;
+
+    
+} */
+.SIGN{
+    padding: 16px;
+ 
+
+} */
+.A{
+    text-decoration: none;
+    color: white;
+    font-family: 'Chivo', sans-serif;
+
+}
+.B{
+    text-decoration: none;
+    color: white;
+    font-family: 'Chivo', sans-serif;
+
+}
+.LOGIN:hover{
+    background-color: black;
+}
+.SIGN:hover{
+    background-color: black;
+}
+#home{
+    margin: 2% 8% 0px 8%;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    font-family: 'Galdeano', sans-serif;
+
+}
+#about{
+    margin: 2% 8% 0px 8%;
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+    padding-top: 40px;
+    /* font-family: 'Galdeano', sans-serif; */
+    font-family: "Verdana";
+    font-size: 1rem;
+    /* font-weight: 400; */
+  text-align: justify;
+
+    
+}
+
+.heading{
+    text-align: center;
+}
+.second{
+    /* background-color: black; */
+    margin-top: -28px;
+    background-image: url(./image/bggggggg.jpg)
+    
+}
+#head2nd{
+    color: rgb(0, 0, 0);
+    
+    
+   
+    /* font-family: 'Macondo Swash Caps', cursive; */
+   
+}
+.foo{
+    font-family: 'Macondo Swash Caps', cursive;
+    
+    /* color: white; */
+    
+}
+/* .fook{
+    font-family: 'Macondo Swash Caps', cursive;
+} */
+#AH{
+    color: rgb(251, 193, 4);
+    font-family: 'Chivo', sans-serif;
+}
+#Aj{
+    color: black;
+    font-family: 'Chivo', sans-serif;
+}
+.img2{
+    width: 180px;
+    margin-left: 80%;
+    margin-top: -150px;
+    animation: rotation 10s infinite linear;
+
+
+}
+/* .img2:hover{
+    /* color: white; */
+    /* animation: rotation 4s infinite linear; */
+
+#imgsalad{
+    /* width: 400px;
+    margin-right: 90%; */
+}
+#imgsalad:hover{
+    /* color: white; */
+    animation: rotation 4s infinite linear;
+}
+.saltxt{
+    margin-right: 590px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid yellow;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:rgb(251, 193, 4); ;
+    font-family: 'Macondo Swash Caps', cursive;
+}
+.third{
+    background-color: black;
+    margin-top: -28px;
+     /* background-image: url(./image/bggggg.jpg) */
+    
+    
+}
+.fourth{
+    background-color: black;
+
+}
+.saltxt:hover{
+    background-color: white;
+}
+#saladd2{
+    width: 300px;
+    margin-right: -2%;
+    margin-top: -400px;
+    margin-bottom: 25px;
+    
+}
+#saladd2:hover{
+    /* color: white; */
+    animation: rotation 4s infinite linear;
+}
+.sal2txt{
+    margin-right: -50px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid yellow;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:rgb(251, 193, 4); ;
+    font-family: 'Macondo Swash Caps', cursive;
+    
+}
+* {
+    box-sizing: border-box;
+ }
+ h1 {
+    text-align: center;
+ }
+ .outer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+ }
+ .inner-grid {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+ }
+ .inner-grid img {
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+ }
+ .dish1{
+ animation: rotation 4s infinite linear;
+ }
+ .dish2{
+    animation: rotation 4s infinite linear;
+    }
+    .dish3{
+        animation: rotation 4s infinite linear;
+        }
+        .dish4{
+            animation: rotation 4s infinite linear;
+            }
+            .dish5{
+                animation: rotation 4s infinite linear;
+                }
+                .dish6{
+                    animation: rotation 4s infinite linear;
+                    }
+                    .dish7{
+                        animation: rotation 4s infinite linear;
+                        }
+                        .dish8{
+                            animation: rotation 4s infinite linear;
+                            }
+                            .dish9{
+                                animation: rotation 4s infinite linear;
+                                }     
+.names{
+    text-decoration: none;
+    border: 1px solid yellow;
+    padding: 10px;
+    border-radius: 40px;
+    background-color:rgb(251, 193, 4); 
+    color: black;
+    font-family: 'Macondo Swash Caps', cursive;
+}
+#pizzaa{
+ margin-left: 922px;   
+ margin-top: -1010px;
+ /* margin-bottom: 1100PX; */
+ 
+}
+.video{
+ margin-left: -118px;
+ width: 1424px;
+ 
+}
+.fourth{
+    margin-top: -20px;
+    width: 100%;
+}
+#ser{
+   padding-top: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Chivo', sans-serif;
+}
+#EOS{
+    color: rgb(4, 2, 31) ;
+    font-family: 'Chivo', sans-serif;
+    margin-bottom: 40px;
+    /* font-family: 'Chivo', sans-serif; */
+}
+#iconn{
+    color: rgb(0, 0, 0) ;
+ margin-top: 10px;
+
+  
+}
+
+
+
+   
+
+
+.und{
+    color: white;
+    
+}
+.mc{
+    color:rgb(0, 0, 0) ;
+    font-weight: bold;
+    font-family: 'Chivo', sans-serif;
+}
+.abb{
+    color:rgb(251, 193, 4) ;
+    text-align: justify;
+    text-align: center;
+    margin-left: 20px;
+    font-family: 'Chivo', sans-serif;
+}
+.inner-grid1 {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0 4px;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    
+ }
+ .inner-grid1:hover{
+    background-color:#ff0000 ;
+ }
+
+ .inner-grid2 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    
+ }
+ .inner-grid2:hover{
+    background-color:#ff0000 ;
+ }
+
+
+ .inner-grid3 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    
+ }
+ .inner-grid3:hover{
+    background-color:#ff0000 ;
+ }
+
+ .names:hover{
+    background-color:#ff0000 ;
+}
+ .inner-grid4 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    
+ }
+ .inner-grid4:hover{
+    background-color:#ff0000 ;
+ }
+
+
+.fourth{
+    background-image: url(./image/bggggggg.jpg)
+}
+.fourth{
+    /* background-color: black; */
+    margin-top: -28px;
+     /* background-image: url(./image/bggggg.jpg) */
+    
+    
+}
+#AHH{
+    margin-top: 28px;
+    color: black;
+    padding-top: 70px;
+    font-family: 'Chivo', sans-serif;
+
+}
+.map{
+    margin-top: -60px;
+}
+
+
+.new1:hover {
+    transform: scale(1.5); /*PICTURE ZOOMING EFFECT*/
+  }
+  .new2:hover {
+    transform: scale(1.5);  /* SCALE IS USED FOR ZOOMING OR MAKING THE PICTURE LARGE */
+  }
+  .new3:hover {
+    transform: scale(1.5);
+  }
+  .new4:hover {
+    transform: scale(1.5); 
+  }
+  .new5:hover {
+    transform: scale(1.5); 
+  }
+  .new6:hover {
+    transform: scale(1.5); 
+  }
+  .new7:hover {
+    transform: scale(1.5); 
+  }
+  .new8:hover {
+    transform: scale(1.5);
+  }
+
+
+
+  .new1{
+    transition: transform .2s; /*IMAGE Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  }
+
+  .new2{
+    transition: transform .2s; /* Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  }
+
+  .new3{
+    transition: transform .2s; /* Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  }
+
+  .new4{
+    transition: transform .2s; /* Animation -the change will be animated and take 0.2 seconds to complete*/
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  }
+
+
+  .new5{
+    transition: transform .2s; /* Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  }
+
+
+  .new6{
+    transition: transform .2s; /* Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  }
+
+  .new7{
+    transition: transform .2s; /* Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  }
+
+  .new8{
+    transition: transform .2s; /* Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  }
+
+
+
+  .fook{
+    font-family: 'Macondo Swash Caps', cursive;
+   font-size: 50px;
+    margin-left: 30px;
+    /* color: white; */
+    
+}
+#rsrt{
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 30px;
+    margin-top: -90px;
+    margin-left: 70px;
+}
+.foott{
+    background-color: black;
+ 
+}
+#head2ndddd{
+    color: white;
+}
+#rsrt{
+    color:rgb(251, 193, 4) ;
+
+}
+.ft2n{
+    margin-left: -45px;
+    width: 300px;
+    margin-top: -50px;
+    /* border: 1px solid blue; */
+}
+#footee{
+    margin: 2% 8% 0px 8%;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    font-family: 'Galdeano', sans-serif;
+
+}
+.sixth{
+    background-color: black;
+    margin-top: -28px;
+     /* background-image: url(./image/bggggg.jpg) */
+    height: 400px;
+    
+}
+.pgggg{
+    text-align: justify;
+}
+#iconn1{
+    color:rgb(251, 193, 4) ;
+    margin-top: 10px;
+margin-left: 30px;
+  
+}
+.icnnn{
+    margin-left: 30px;
+}
+.llllll{
+    text-decoration: none;
+}
+.limkk{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-left: 400px;
+    font-weight: 600;
+
+}
+.overrrr{
+    margin-top: -250px;
+    margin-right: 350px;
+    
+}
+.rimkk{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-left: 560px;
+    font-weight: 600;
+}
+.rverrrr{
+    margin-top: -230px;
+}
+.cverrrr{
+margin-top: -165px;
+}
+.cimkk{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-left: 750px;
+    font-weight: 600;
+
+}
+.cokkk{
+    margin-left: 390px;
+}
+.lcimkk{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-left: 940px;
+    font-weight: 600;
+}
+.lcokkk{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-left: 950px;
+    font-weight: 600;
+}
+#ionnn{
+    margin-left: 990px;
+ 
+}
+.lverrrr{
+    margin-top: -165px;
+}
+#cpyyyyy{
+    color:rgb(251, 193, 4);
+    margin-left: 350px;
+    margin-top: 170px;
+
+    font-weight: 300;
+}
+.lokkk{
+    color:rgb(251, 193, 4) ;
+
+}
+.rokkk{
+    color:rgb(251, 193, 4) ;
+
+}
+.cokkk{
+    color:rgb(251, 193, 4) ;
+
+}
+.lcokkk{
+        color:rgb(251, 193, 4) ;
+
+}
